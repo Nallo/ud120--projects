@@ -22,6 +22,7 @@ After the split, our dataset is ready for Training, Feature Transformation and P
 In particular, given a set of _train_feature_ and _test_feature_ you may want to
 follow the steps below to applying PCA on your features and run your algorithm.
 
+    ```python
     #### Training Phase
     PCA.fit(train_features)         # Run PCA on your training features
     PCA.transform(train_features)   # Run PCA transformation on the training features
@@ -33,6 +34,7 @@ follow the steps below to applying PCA on your features and run your algorithm.
     SVC.predict(test_features)
 
     #### Here you can compute the accuracy of your algorithm
+    ```
 
 K-Fold Cross Validation
 =======================
